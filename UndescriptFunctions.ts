@@ -45,6 +45,10 @@ Mon 2/10 2:30PM to 10:00PM
 let processStringToData = function (input:String,seperator:String) {
     for (const i in input.split('')) { //Kind of gross.
         console.log(i);
+        //Search for integers
+        //Add it onto an array
+        //Make a new entry to the array once it reaches the seperator.
+        //Somehow use this information it gathers to determine when things are scheduled.
     }   
 }
 
